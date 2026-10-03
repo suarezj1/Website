@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Redlining &amp; Economic Opportunity</title>
+
+    <link rel="stylesheet" href="project-style.css">
+</head>
+
+<body>
+
+    <!-- ========================================
+         HEADER
+    ========================================= -->
+
+    <header class="site-header">
+
+        <a href="../index.html" class="site-name">
+            Jessica Suarez
+        </a>
+
+
+        <nav class="main-nav">
+
+            <!-- Work dropdown-->
+
+            <div class="work-menu">
+
+                <button
+                    class="work-button"
+                    id="work-button"
+                    type="button"
+                    aria-expanded="false">
+
+                    <span>WORK</span>
+
+                    <span class="work-arrow">
+                        ↓
+                    </span>
+
+                </button>
+
+                <div
+                    class="work-dropdown"
+                    id="work-dropdown">
+
+                    <a href="honeypot.html">
+                        HONEYPOT 
+                    </a>
+
+                    <a href="Tesla.html">
+                        TESLA
+                    </a>
+
+                    <a href="consumer-behavior.html">
+                        CONSUMER BEHAVIOR
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Resume -->
+            <a
+                href="../file/SuarezJ.pdf"
+                target="_blank"
+                rel="noopener">
+                Resume
+            </a>
+
+
+            <!-- Contact dropdown -->
+            <div class="contact-menu">
+
+                <button
+                    class="contact-button"
+                    id="contact-button"
+                    type="button"
+                    aria-expanded="false">
+
+                    <span>
+                        Contact Me
+                    </span>
+
+                    <span class="contact-arrow">
+                        ↓
+                    </span>
+
+                </button>
+
+
+                <div
+                    class="contact-dropdown"
+                    id="contact-dropdown">
+
+                    <a
+                        href="https://www.github.com/suarezj1/website"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        GitHub ↗
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/connectwjessicas/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        LinkedIn ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         PROJECT PAGE
+    ========================== -->
+
+    <main id="top" class="project-page">
+
+        <div class="project-layout">
+
+            <!-- MAIN CONTENT -->
+
+            <div class="project-content">
+             
+            <!-- =========================
+                 HERO
+            ========================== -->
+
+            <section class="project-hero">
+
+            <h1>Redlining &amp; Economic Opportunity</h1>
+
+            <p class="project-category">HISTORICAL DATA &middot; SOCIOECONOMIC ANALYSIS</p>
+
+            <p class="project-intro">
+                This analysis examines six San Diego neighborhoods that received federal
+                HOLC grades ranging from A through D in 1936. Nearly ninety years later,
+                differences in homeownership, property values, and neighborhood demographics
+                were explored across these historical graded areas.
+            </p>
+
+            <div class="project-meta">
+
+                <div>
+                    <span class="meta-label">Project</span>
+                    <span class="meta-value">Redlining &amp; Economic Opportunity</span>
+                </div>
+
+                <div>
+                    <span class="meta-label">Method</span>
+                    <span class="meta-value">Historical &amp; Socioeconomic Data Analysis</span>
+                </div>
+
+                <div>
+                    <span class="meta-label">Focus</span>
+                    <span class="meta-value">Housing & Economic Opportunity</span>
+                </div>
+
+            </div>
+
+        </section>
+
+                <!-- =========================
+                     INTRODUCTION
+                ========================== -->
+                <section class="project-section experiment-walkthrough" id="introduction">
+                    <h2>Introduction</h2>
+
+                    <p class="rl-lede">Between 1935 and 1940, the Home Owners' Loan
+                        Corporation (HOLC) sent assessors into American cities to grade
+                        neighborhoods on their "mortgage security." The resulting maps
+                        graded each district A ("Best") through D ("Hazardous"), and for
+                        decades afterward, banks used those grades to decide where
+                        mortgages were worth the risk.</p>
+
+                    <p>The grades were rarely about the condition of the housing stock
+                        alone. Assessors routinely weighed the race and national origin
+                        of a neighborhood's residents as a factor in its "risk," and
+                        majority-white professional districts were graded favorably
+                        almost by default. The practice, now known as redlining, steered
+                        decades of investment toward some San Diego neighborhoods and
+                        away from others.</p>
+
+                    <p>This analysis follows six San Diego districts from their original
+                        1936 HOLC grade through to 2024 by comparing the assessors' own
+                        language with present-day homeownership data. The history of 
+                        well documented redlining raises questions: how much of the 1936
+                        map remains legible in the city today and where has the picture
+                        genuinely changed.</p>
+
+                </section>
+
+                  <!-- =========================
+                    1936 BY THE NUMBERS
+                ========================== -->
+
+                <section class="project-section experiment-walkthrough" id="by-the-numbers">
+
+                <h2>San Diego in 1936</h2>
+                    <p><strong> Data &amp; Methodology:</strong> Historical HOLC data were collected from Digital Scholarship
+                     Lab at the University of Richmond. Modern ZIP code and neighborhood matches are estimates. They are based on
+                     geographic overlap between the original HOLC-grade area and present day ZIP code boundaries.
+                    </p>
+
+                    <!-- =========================
+                    1936 SLIDESHOW
+                    ========================== -->
+
+                    <div class="walkthrough-slider" id="1936-slider">
+
+                        <div class="slide-track">
+                            
+                            <!-- =========================
+                                 THE 1936 HOLC MAP
+                            ========================== -->
+
+                            <div class="w-slide active" data-slide="0">
+                        
+                                <div class="w-slide-image">
+
+                                    <img src="images/redlining/holc-map-1936.png" alt="1936 HOLC residential security map of San Diego, color-coded by grade">
+
+                                        <div class="rl-legend">
+
+                                            <span><i class="grade-a"></i>A &mdash; Best</span>
+                                            <span><i class="grade-b"></i>B &mdash; Still Desirable</span>
+                                            <span><i class="grade-c"></i>C &mdash; Definitely Declining</span>
+                                            <span><i class="grade-d"></i>D &mdash; Hazardous</span>
+
+                                        </div>
+
+                                        <div class="w-slide-caption">
+                                            <h3>1936 HOLC Map</h3>
+                                            <p>Green and blue districts (A/B) clustered along the coast and in established
+                                            professional neighborhoods; yellow and red districts (C/D)
+                                            covered older, denser, and more racially mixed parts of the city.</p>
+
+                                        </div>
+                                </div>
+
+                            </div>
+
+                            <!-- =========================
+                                HOLC ASSESSMENTS
+                            ========================== -->
+                            <div class="w-slide" data-slide="1">
+
+                                <div class="w-slide-caption">
+
+                                    <h3>HOLC Assessments</h3>
+
+                                        <div class="rl-table-wrap">
+
+                                            <table class="rl-table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>District</th>
+                                                        <th>Race (as recorded)</th>
+                                                        <th>Class</th>
+                                                        <th>Material / Risk</th>
+                                                    </tr>
+                                                </thead>
+
+                                                <tbody>
+                                                    <tr>
+                                                        <td><span class="rl-grade-chip a">A4</span> &middot; La Jolla Hermosa (92037)</td>
+                                                        <td>Restricted to caucasian race</td>
+                                                        <td>Professional &amp; retired businessmen</td>
+                                                        <td>Large lots; ocean/foothill view; street improvements paid</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="rl-grade-chip b">B21</span> &middot; Kensington (92116)</td>
+                                                        <td>Practically 100% white; few Spanish families of high social strata</td>
+                                                        <td>Retired, professional &amp; businessmen</td>
+                                                        <td>Access to park, library, markets &amp; transit; bond "not a detriment"</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="rl-grade-chip c">C9</span> &middot; Central San Diego (92103)</td>
+                                                        <td>No immediate threat of foreign infiltration</td>
+                                                        <td>White-collar &amp; professional</td>
+                                                        <td>Apartment/rooming houses; "cheap improvements," declining</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="rl-grade-chip c">C13</span> &middot; Brooklyn Heights (92104)</td>
+                                                        <td>Better class Mexicans coming in</td>
+                                                        <td>White-collar &amp; skilled workers</td>
+                                                        <td>Apartments &amp; multiple dwellings; residential "decline"</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="rl-grade-chip d">D2</span> &middot; Old Town (92110)</td>
+                                                        <td>No race specified</td>
+                                                        <td>Lower social strata</td>
+                                                        <td>Older/low-value homes; no tax problems; "extremely hazardous for loans"</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="rl-grade-chip d">D10</span> &middot; Encanto (92114)</td>
+                                                        <td>Mostly whites &amp; Mexicans</td>
+                                                        <td>Lower salaried class</td>
+                                                        <td>Inexpensive lots; heavy Mattoon Assessment; lenders consider area hazardous</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                    <p class="rl-table-note">Race, class, and material/risk columns are drawn directly from the original 1936 HOLC 
+                                        "area description" forms, including their language.</p>
+                                </div>
+
+                            </div>
+
+                            <!-- =========================
+                                 SLIDE 2: INCOME & CLASS
+                            ========================== -->
+
+                            <div class="w-slide" data-slide="2">
+                                <div class="w-slide-image">
+                                    <img src="images/redlining/income-class-1936.jpg" alt="Bar chart of reported annual income ranges by HOLC district, 1936">
+                                </div>
+                                <div class="w-slide-caption">
+                                    <h3>Income &amp; Class</h3>
+                                    <p>Reporting income generally declines with HOLC grade. A4 had the highest recorded range at $5,000 - $25,000 compared with
+                                        $0 - $1,000 in D2.  The C-grade district fell between these extremes.  No numerical income range was found for D10 since
+                                        HOLC described the district only as "lower salaried" with "small earning capacity." This shows
+                                        the economic dimension of the assessments rather than race directly.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <!-- =========================
+                                SLIDE 3: MATERIAL CONDITIONS
+                            ========================== -->
+
+                            <div class="w-slide" data-slide="3">
+                                <div class="w-slide-image">
+                                    <img src="images/redlining/material-conditions-1936.jpg" alt="Scatter plot of material housing conditions versus neighborhood amenities by HOLC district, 1936">
+                                </div>
+
+                                <div class="w-slide-caption">
+                                    <p><strong>Material/Housing Quality</strong> reflects how well-built and maintained the housing stock was. <strong>Amenities & Accessibility</strong> captures access
+                                        to parks, transit, schools, and shopping. Higher HOLC grades align with stronger conditions and greater access just as lower grades align with weaker conditions.
+                                        This chart focuses on physical infrastructure and does not capture the racial factors also considered in HOLC assessments. 
+                                    </p>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- =========================
+                             SLIDER CONTROLS
+                        ========================== -->
+
+                        <div class="w-controls">
+
+                            <button type="button" class="w-btn w-prev">&larr; Previous</button>
+                    
+                                <div class="w-dots">
+                                    <span class="w-dot active" data-dot="0"></span>
+                                    <span class="w-dot" data-dot="1"></span>
+                                    <span class="w-dot" data-dot="2"></span>
+                                    <span class="w-dot" data-dot="3"></span>
+                                </div>
+
+                            <button type="button" class="w-btn w-next">Next &rarr;</button>
+                        </div>
+
+                    </div>
+
+                </section>
+
+        
+                <!-- =========================
+                     SAN DIEGO IN 2024
+                ========================== -->
+                <section class="project-section experiment-walkthrough" id="san-diego-today">
+                    <h2>San Diego in 2024</h2>
+
+                    <p><strong>Data &amp; Methodology:</strong> Present-day demographic data were obtained from 
+                        the National Community Reinvestment Coalition (NCRC). After creating an account, the 
+                        relevant San Diego data sets were extracted, cleaned, and analyzed in Rstudio. Selected
+                        demographic and socioeconomic measures were then organized to allow consistent comparison
+                        across the six study areas and with the historical 1936 data.</p>
+
+                     <!-- your three walkthrough slides go here -->
+
+                     <div class="walkthrough-slider" id="2024-SanDiego-slider">
+                        
+                        <div class="slide-track">
+                            
+                            <div class="w-slide active" data-slide="0">
+
+                                <div class="w-slide-image">
+                                    <img src="images/redlining/race-ethnicity-2024.jpg" alt="Bar chart of race and ethnicity across the six historical HOLC areas, 2024">
+                                </div>
+
+                                <div class="w-slide-caption">
+                                    <p>Racial composition has changed substantially since 1936; however, the pattern is uneven across the six areas.
+                                        A4, once described as "restricted to caucasian race," remains the area with the highest white share and lowest
+                                        black share. By contrast, C13 and D10 show considerably greater racial diversity today. Notably, D10 is now the
+                                        most diverse of the six areas. The comparison shows that racial composition has changed across all six areas. 
+                                        Each changed at different rates and to different degrees. 
+                                    </p>
+                                </div>     
+                            </div>
+                            
+                            <div class="w-slide" data-slide="1">
+
+                                <div class="w-slide-image">    
+                                     <img src="images/redlining/education-2024.jpg" alt="Stacked bar chart of educational attainment across former HOLC districts, 2024">
+                                </div>
+
+                                <div class="w-slide-caption">
+                                    <p>Educational attainment does not follow the 1936 HOLC grades as other measurements. A4 has the highest share (77%) of residents with 
+                                       a bachelor's degree or more, D10 has the lowest share (22%) without a high school diploma. The remaining areas cluster more closely
+                                       together with notably C9 exceeding B21 in bachelor's attainment. The other five areas show less variation in educational attainment and
+                                       do not consistently follow their historical HOLC grades. D10 stands out most clearly with substantially lower bachelor's attainment and 
+                                       higher rates of residents without a high school diploma. 
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="w-slide" data-slide="2">
+
+                                <div class="w-slide-image">
+                                    <img src="images/redlining/homeownership-2024.jpg" alt="Bar chart of 2024 homeownership rates across selected San Diego areas, compared to their 1936 HOLC grade">
+                                </div>
+
+                                <div class="w-slide-caption">
+                                    <p>Homeownership does not follow the historical HOLC grade pattern. For instance, dispite receiving a grade D in 1936, D10 
+                                        has the highest ownership rate today and then A4 follows. The remaining areas cluster at lower rates across different
+                                        HOLC grades. This contrasts with the pattern seen in other measures and suggests that historical HOLC grade alone
+                                        does not explain present-day homeownership.  
+                                        
+                                    </p>
+                                </div>
+                            
+                            </div>
+
+                            <div class="w-slide" data-slide="3">
+                                
+                                <div class="w-slide-image">
+                                    <img src="images/redlining/economic-housing-2024.jpg" alt="Scatter plot of median home value versus median household income across modern ZCTAs, compared to their 1936 HOLC classification">
+                                </div>
+
+                                <div class="w-slide-caption"> 
+                                    <p>A4 stands apart from the other five areas because it combines higher houshold income and home values
+                                        with relatively high homeownership. The remaining areas cluster more closely in income and home 
+                                        value but vary considerably in homeownership. D10 shows the opposite pattern because it pairs teh lowest
+                                        home value with the highest rate of homeownership. This shows that high homeownership does not always
+                                        conclude with higher income or property values. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div> <!-- closes slide-track -->
+
+                        <div class="w-controls">
+                            <button type="button" class="w-btn w-prev">&larr; Previous</button>
+                            <div class="w-dots" id="w-dots">
+                                <span class="w-dot active" data-dot="0"></span>
+                                <span class="w-dot" data-dot="1"></span>
+                                <span class="w-dot" data-dot="2"></span>
+                                <span class="w-dot" data-dot="3"></span>
+                            </div>
+                            <button type="button" class="w-btn w-next">Next &rarr;</button>
+                        </div>
+
+                    </div> <!-- ADD THIS: closes walkthrough-slider -->
+                
+                </section>
+
+                <!-- =========================
+                     KEY FINDINGS
+                ========================== -->
+
+                <section class="project-section experiment-walkthrough" id="key-findings">
+                    <h2>Race &amp; Economic Opportunity</h2>
+
+                    <p>Since 1936, racial composition has become more diverse across the six areas but economic differences remain. 
+                        Income and home values continue to vary substantially between the study areas. This shows that demographic
+                        change has not necessarily been acompanied by equal economic outcomes.</p>
+
+                     <!-- your two walkthrough slides go here--->
+
+                    <div class="walkthrough-slider" id="persistence">
+
+                        <div class="slide-track">
+                            
+                        <!-- =========================
+                               SLIDE 1: PERSISTENCY
+                        ========================== -->
+
+                            <div class="w-slide active" data-slide="0">
+                        
+                                 <div class="w-slide-image">
+                                    <img src="images/redlining/median-income-diff-2024.jpg" alt="Diverging bar chart of median household income difference from the six-area mean, 2024, by former HOLC district">
+                                </div>
+                                <div class="w-slide-caption">
+                                    <h3>Persistence</h3>
+                                    <p>The only Grade A area that continues to stand apart economically since 2024 is A4.
+                                    Its household income is 46% above the six area average, about $39,000 higher, and 
+                                    its home value are more than $1 million above the average. This suggests that the 
+                                    area graded "Best" in 1936 remains one of the most economically advantaged
+                                    among the six areas today.</p>
+                                </div>
+
+                            </div>
+
+                            <!-- =========================
+                                SLIDE 2: CHANGE
+                            ========================== -->
+                            <div class="w-slide active" data-slide="1">
+                        
+                                <div class="w-slide-image">
+                                    <img src="images/redlining/homeownership-1936-vs-2024.jpg" alt="Line chart comparing owner-occupied housing share in 1936 versus 2024, across all six historical HOLC areas">
+                                </div>
+                                <div class="w-slide-caption">
+                                    <h3>Change</h3>
+                                    <p>Homeownership declied substantially in all three areas with historical comparison data. 
+                                        A4, B21, and C13 each had much higher owner-occupation in 1936. By 2024, the difference
+                                        between several of teh study areas had narrowed considerably. Data was not collected for 
+                                        C9, D2, D10; therefore, historical changes could not be measured for those areas. Unlike
+                                        income and home values, homeownership shows substantial change over time rather than a 
+                                        clear pattern of persistence.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    
+                         <!-- =========================
+                            SLIDER CONTROLS
+                         ========================== -->
+
+                        <div class="w-controls">
+
+                             <button type="button" class="w-btn w-prev">&larr; Previous</button>
+                                <div class="w-dots">
+                                    <span class="w-dot active" data-dot="0"></span>
+                                    <span class="w-dot" data-dot="1"></span>
+                                </div>
+
+                            <button type="button" class="w-btn w-next">Next &rarr;</button>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!-- =========================
+                     CONCLUSION
+                ========================== -->
+                <section class="project-section experiment-walkthrough" id="conclusion">
+
+                    <h2>Conclusion</h2>
+
+                    <p>The comparison between 1936 HOLC assessments and present-day conditions show a combination of 
+                        persistence and change. The only Grade A area in the study (A4) continued to stand apart in household
+                        income and home value. By contrast, other measures such as education and homeownership, do not 
+                        consistently follow the historical HOLC grade pattern.
+                    </p>
+
+                    <p>At the same time, the six areas have experienced substantial demographic and economic change. 
+                        Racial composition is more diverse and historical differences in ownership have narrowed among
+                        the areas with available comparison data. Further, D10 demonstrates that a former Grade D area
+                        can have teh highest homeownership rate today. Overall, the findings suggest that HOLC grades
+                        remain relevant to understand some present-day inequalities but they do not explain every
+                        outcome observed across these neighborhoods. 
+                    </p>
+
+                </section>
+
+                    <!-- =========================
+                    TOOLS & SKILLS
+                    ========================== -->
+
+                <section class="project-section" id="skills">
+
+                    <h2>Tools &amp; Skills</h2>
+
+                        <div class="skills">
+
+                            <span>RStudio</span>
+                            <span>Data Extraction</span>
+                            <span>Data Cleaning</span>
+                            <span>Geographic Matching</span>
+                            <span>Comparative Analysis</span>
+                            <span>Socioeconomic Data Analysis</span>
+                            <span>Historical Research</span>
+                            <span>Data Visualization</span>
+                        </div>
+
+                </section>
+
+
+
+        </div>
+
+            <!-- =========================
+                 RIGHT SIDEBAR
+            ========================== -->
+
+            <aside class="page-index">
+
+                <p>On This Page</p>
+
+                <div class="page-index-links">
+
+                    <a href="#introduction">Introduction</a>
+
+                    <a href="#by-the-numbers">San Diego in 1936</a>
+
+                    <a href="#san-diego-today">San Diego in 2024</a>
+
+                    <a href="#key-findings">Race &amp; Economic Opportunity</a>
+
+                    <a href="#conclusion">Conclusion</a>
+
+                    <a href="#skills">Tools & Skills</a>
+                </div>
+
+            </aside>
+
+        </div>
+
+
+   </main>
+
+    <!-- ========================================
+         FOOTER
+    ========================================= -->
+
+    <footer class="home-footer">
+
+        <a href="../index.html">
+            ← Back to Portfolio 
+        </a>
+
+    </footer>
+
+    <script src="project-script.js"></script>
+
+</body>
+
+
+</html>

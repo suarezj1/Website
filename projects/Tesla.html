@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Tesla | Valuation & Sensitivity Analysis</title>
+
+    <link rel="stylesheet" href="project-style.css">
+</head>
+
+
+<body>
+
+    <!-- ========================================
+         HEADER
+    ========================================= -->
+
+    <header class="site-header">
+
+        <a href="../index.html" class="site-name">
+            Jessica Suarez
+        </a>
+
+
+        <nav class="main-nav">
+
+            <!-- Work dropdown-->
+
+            <div class="work-menu">
+
+                <button
+                    class="work-button"
+                    id="work-button"
+                    type="button"
+                    aria-expanded="false">
+
+                    <span>WORK</span>
+
+                    <span class="work-arrow">
+                        ↓
+                    </span>
+
+                </button>
+
+                <div
+                    class="work-dropdown"
+                    id="work-dropdown">
+
+                    <a href="honeypot.html">
+                        HONEYPOT 
+                    </a>
+
+                    <a href="consumer-behavior.html">
+                        CONSUMER BEHAVIOR
+                    </a>
+
+                    <a href="redlining.html">
+                        REDLINING
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Resume -->
+            <a
+                href="../file/SuarezJ.pdf"
+                target="_blank"
+                rel="noopener">
+                Resume
+            </a>
+
+
+            <!-- Contact dropdown -->
+            <div class="contact-menu">
+
+                <button
+                    class="contact-button"
+                    id="contact-button"
+                    type="button"
+                    aria-expanded="false">
+
+                    <span>
+                        Contact Me
+                    </span>
+
+                    <span class="contact-arrow">
+                        ↓
+                    </span>
+
+                </button>
+
+
+                <div
+                    class="contact-dropdown"
+                    id="contact-dropdown">
+
+                    <a
+                        href="https://www.github.com/suarezj1/website"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        GitHub ↗
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/connectwjessicas/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        LinkedIn ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         PROJECT PAGE
+    ========================== -->
+
+    <main id="top" class="project-page">
+
+        <div class="project-layout">
+
+
+            <!-- MAIN CONTENT -->
+
+            <div class="project-content">
+
+
+                <!-- HERO -->
+
+                <section class="project-hero">
+
+
+
+                    <h1>
+                        Tesla Valuation &
+                        Sensitivity Analysis
+                    </h1>
+
+                    <p class="project-category">
+                        FINANCE · VALUATION · EXCEL MODELING
+                    </p>
+
+                    <p class="project-intro">
+                        A financial valuation case study forecasting Tesla's implied share price from 2026-2033 
+                        using discounted cash flow (DCF) analysis, scenario modeling, comparable companies analysis, 
+                        and Goal Seek.
+                    </p>
+
+                    <div class="project-meta">
+
+                        <div>
+                            <span class="meta-label">Project</span>
+                            <span class="meta-value">Tesla Stock Valuation</span>
+                        </div>
+
+                        <div>
+                            <span class="meta-label">Method</span>
+                            <span class="meta-value">Financial Modeling & Valuation</span>
+                        </div>
+
+                        <div>
+                            <span class="meta-label">Focus</span>
+                            <span class="meta-value">Implied Share Price</span>
+                        </div>
+
+                    </div>
+
+                <p class="project-disclaimer">
+                Note: This was an academic project. Any and all projections and valuation estimates are hypothetical and were developed for educational purposes.
+                </p> 
+
+                </section> <!-- closes project-hero -->
+
+                <!-- =========================
+                     OVERVIEW
+                ========================== -->
+
+                <section class="project-section" id="overview">
+
+                    <h2>Overview</h2>
+
+                    <p>
+                        This case study evaluated Tesla's value per share
+                        by forecasting future operating performance and
+                        comparing the resulting valuation with the company's
+                        observed market price.
+                    </p>
+
+                    <p>
+                        The analysis used multiple approaches rather than
+                        relying on a single valuation estimate. A DCF model established the core valuation,
+                        scenario analysis tested alternative growth outcomes,
+                        and comparable-company valuation provided an additional
+                        market-based benchmark.
+                    </p>
+
+                </section>
+
+
+                <!-- =========================
+                     QUESTION
+                ========================== -->
+
+                <section class="project-section" id="question">
+
+                    <h2>Core Question:</h2>
+
+                    <p class="large-question">
+                        <i>What assumptions would be required for a traditional
+                        valuation model to support Tesla's $404.63 market price?</i>
+                    </p>
+
+                    <p>
+                        Rather than treating the observed price per share (PPS) as the
+                        answer, the analysis tested the operating assumptions
+                        needed to justify that valuation.
+                    </p>
+
+                </section>
+
+
+                <!-- =========================
+                     VALUATION APPROACH
+                ========================== -->
+
+                <section class="project-section" id="approach">
+
+                    <h2>Valuation Approach</h2>
+
+                    <p>
+                        The analysis combined DCF modeling,
+                        scenario analysis, Goal Seek, and comparable-company
+                        valuation. Revenue was forecast through 2033 under downside,
+                        base, and upside scenarios. Projected operating
+                        performance was then converted into FCF
+                        and discounted to present value (PV).
+                    </p>
+
+
+                    <!-- KEY ASSUMPTIONS -->
+
+                    <div class="stat-grid">
+
+                        <div class="stat">
+                            <span class="stat-number">15%</span>
+                            <span class="stat-description">
+                                Discount rate
+                            </span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-number">3%</span>
+                            <span class="stat-description">
+                                Perpetual growth rate
+                            </span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-number">3.33B</span>
+                            <span class="stat-description">
+                                Shares outstanding
+                            </span>
+                        </div>
+
+                    </div>
+
+
+                    <!-- REVENUE FORECAST -->
+
+                    <div class="project-visual">
+
+                        <img
+                            src="images/tesla/tesla-revenue-forecast.png"
+                            alt="Tesla revenue forecast from 2025 through 2033 under downside, base, and upside scenarios"
+                            class="project-image"
+                        >
+
+                    </div>
+
+                    <p class="image-caption">
+                        Values shown in billions of dollars.
+                    </p>
+
+
+                    <!-- MODEL LOGIC -->
+
+                    <details class="code-dropdown">
+
+                        <summary>View Excel Model Logic</summary>
+
+                        <div class="code-content">
+
+                            <pre>
+                                    Revenue Forecast = Prior Year Revenue × (1 + Revenue Growth Rate)
+
+                                    EBIT = Revenue - Cost of Revenue - R&D - SG&A
+
+                                    FCF = EBIT × (1 - Tax Rate) + Depreciation - OpEx - Change in Net Working Capital
+
+                                    Terminal Value = Final-Year FCF × (1 + Perpetual Growth Rate) ÷ (Discount Rate - Perpetual Growth Rate)
+
+                                    PV = FCF ÷ (1 + Discount Rate)^Year
+
+                                    Estimated PPS = Equity Value ÷ Shares Outstanding
+                            </pre>
+
+                        </div>
+
+                    </details>
+
+                </section>
+
+
+                <!-- =========================
+                     VALUATION RESULTS
+                ========================== -->
+
+                <section class="project-section no-top-border" id="results">
+
+                    <h2>Valuation Results</h2>
+
+                    <p>
+                        The estimated share price varied substantially
+                        depending on the assumptions used. Even the upside
+                        DCF and peer-based valuation remained well below
+                        Tesla's $404.63 market price.
+                    </p>
+
+                    <!-- PPS CHART -->
+
+                    <div class="project-visual">
+
+                        <img
+                            src="images/tesla/PPS.png"
+                            alt="Tesla estimated values per share compared with the observed market price"
+                            class="project-image"
+                        >
+
+                    </div>
+
+                    <p class="image-caption">
+                        Estimated PPS across DCF scenarios
+                        and peer valuation compared with Tesla's
+                        $404.63 market price.
+                    </p>
+
+
+                    <!-- SENSITIVITY -->
+
+                    <div class="subsection no-top-border">
+
+                        <h3>Sensitivity</h3>
+
+                        <p>
+                            The valuation was particularly sensitive to
+                            operating costs. Increasing cost of revenue
+                            toward 85% of revenue reduced the estimated
+                            value to approximately $27.42 per share. Higher R&D spending also reduced the valuation, although the effect was
+                            less severe than the cost-of-revenue sensitivity.
+                        </p>
+
+                    </div>
+
+
+                    <details class="scenario-dropdown">
+
+                        <summary>View Scenario Assumptions</summary>
+
+                            <div class="scenario-chart">
+                                
+                                <!-- YEARS -->
+
+                                <div class="scenario-chart-row scenario-chart-header">
+
+                                    <span>Scenario</span>
+                                    <span>2026</span>
+                                    <span>2027</span>
+                                    <span>2028</span>
+                                    <span>2029</span>
+                                    <span>2030</span>
+                                    <span>2031</span>
+                                    <span>2032</span>
+                                    <span>2033</span>
+
+                                </div>
+
+        <!-- DOWNSIDE -->
+
+                                <div class="scenario-chart-row">
+
+                                    <span class="scenario-label">Downside</span>
+                                    <span>20%</span>
+                                    <span>18%</span>
+                                    <span>14%</span>
+                                    <span>10%</span>
+                                    <span>8%</span>
+                                    <span>5%</span>
+                                    <span>4%</span>
+                                    <span>4%</span>
+
+                                </div>
+
+
+        <!-- BASE -->
+
+                                <div class="scenario-chart-row">
+
+                                    <span class="scenario-label">Base</span>
+                                    <span>25%</span>
+                                    <span>24%</span>
+                                    <span>20%</span>
+                                    <span>15%</span>
+                                    <span>13%</span>
+                                    <span>10%</span>
+                                    <span>8%</span>
+                                    <span>6%</span>
+
+                                </div>
+
+
+        <!-- UPSIDE -->
+
+                                <div class="scenario-chart-row">
+
+                                    <span class="scenario-label">Upside</span>
+                                    <span>35%</span>
+                                    <span>30%</span>
+                                    <span>28%</span>
+                                    <span>25%</span>
+                                    <span>20%</span>
+                                    <span>15%</span>
+                                    <span>12%</span>
+                                    <span>11%</span>
+
+                                </div>
+    
+                            </div>
+                                <p class="scenario-chart-note">
+                                    Year Over Year (YoY) Revenue Growth (%)
+                                </p>
+</details>
+
+                </section>
+
+
+                <!-- =========================
+                     MARKET PRICE TEST
+                ========================== -->
+
+                <section
+                    class="project-section feature-section"
+                    id="market-test"
+                >
+
+                    <p class="section-eyebrow">
+                        MARKET PRICE TEST
+                    </p>
+
+                    <h2>
+                        What Would It Take to Justify $404.63?
+                    </h2>
+
+                    <p>
+                        Goal Seek was used to determine the revenue-growth
+                        assumptions required for the DCF model to reach
+                        Tesla's $404.63 market price. The model required approximately 73.28% revenue
+                        growth in 2026, followed by a gradual decline to
+                        23.49% by 2033. This is a decrease of approximately 50 percentage points.
+
+                    </p>
+
+                    <!-- GOAL SEEK CHART -->
+
+                    <div class="project-visual">
+
+                        <img
+                            src="images/tesla/GoalSeek.png"
+                            alt="Required Tesla revenue growth from 2026 through 2033 to support a 404.63 dollar share price"
+                            class="project-image"
+                        >
+
+                    </div>
+
+                </section>
+
+
+               <!-- ========================    CONCLUSION     ========================== -->
+
+                <section class="project-section" id="conclusion">
+
+                    <h2>Conclusion</h2>
+
+                <div class="project-highlight tesla-highlight">
+
+                    <p class="highlight-label">
+                    Estimated Valuation Range
+                    </p>
+
+                    <p class="highlight-number">
+                    $65.41–$123.88
+                    </p>
+
+                </div>
+
+            <p>
+        The analysis produced a reasonable valuation
+        range of approximately $65.41 to $123.88 per share
+        using the base DCF and comparable-company approaches.
+        Tesla's $404.63 market price therefore reflected
+        expectations beyond the assumptions used in these
+        traditional valuation models. Brand strength,
+        innovation, investor sentiment, and expectations
+        of future growth may help explain part of that premium.
+    </p>
+
+</section>
+
+
+                <!-- =========================
+                     TOOLS & SKILLS
+                ========================== -->
+
+                <section class="project-section skills" id="skills">
+
+                    <h2>Tools & Skills</h2>
+
+                    <div class="skills">
+
+                        <span>DCF Valuation</span>
+                        <span>Financial Modeling</span>
+                        <span>Scenario Analysis</span>
+                        <span>Sensitivity Analysis</span>
+                        <span>Goal Seek</span>
+                        <span>Comparable Companies</span>
+                        <span>Data Visualization</span>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+
+            <!-- =========================
+                 RIGHT SIDEBAR
+            ========================== -->
+
+            <aside class="page-index">
+
+                <p>On This Page</p>
+
+                <div class="page-index-links">
+
+                    <a href="#overview">Overview</a>
+
+                    <a href="#question">Core Question</a>
+
+                    <a href="#approach">Valuation Approach</a>
+
+                    <a href="#results">Valuation Results</a>
+
+                    <a href="#market-test">Market Price Test</a>
+
+                    <a href="#conclusion">Conclusion</a>
+
+                    <a href="#skills">Tools & Skills</a>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+    <!-- ========================================
+         FOOTER
+    ========================================= -->
+
+    <footer class="home-footer">
+
+        <a href="../index.html">
+            ← Back to Portfolio 
+        </a>
+
+    </footer>
+
+    <script src="project-script.js"></script>
+
+</body>
+
+</html>

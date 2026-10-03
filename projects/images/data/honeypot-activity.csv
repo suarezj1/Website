@@ -1,0 +1,6 @@
+Time,Event,Status,Location
+0.000s,SYN,Connection Requested,Local Test
+0.001s,SYN-ACK,Response Sent,Local Test
+0.001s,ACK,Handshake Complete,Local Test
+0.002s,PSH-ACK,Data Exchanged,Local Test
+2.702s,FIN-ACK,Connection Closing,Local Test
